@@ -1,8 +1,15 @@
 To start, I utilised ArrayLists very much within this code, as they are the best at holding varying data. There are even set methods such as .set, .get, and .add that make it very easy to add, view, and replace values within my ArrayLists. I used ArrayList for all types of data for each song, being tracking all the artists, their songs, and the ratings given for these songs by the user.
+
 My choice variable was very important as it is the sole variable that takes the menu option from the user to run the correct area of the program.
+
 .add, .get, .size, and .set functions in ArrayList were extremely vital as they run the most important area within the MLM, which is to add songs. They also enable the library to be altered (song removal/editing) as well as being used in support of nearly ever other menu option.
+
 star 1-5 variables used to store ratings from 0-100 as stars for rating distribution chart.
+
 If and if else statements supported entire code structure as conditionals were needed for every menu option. These statements were imperative for numerous things like user menu choice, error messages, executing certain tasks within for/for each loops, and much more. More than half of my program contains code that either is the if/ else if statements or within one of these statements, showing the extent of it's use and purpose in the code.
+
 I used for/for each loops as my primary loops rather than while loops due to the enhanced ability of for each loops to cycle through data quickly and efficiently, and for loops for similar applications, but more importantly the ability to start and end at certain indexes in data (necessity for getting correct songs for top & bottom 20% ratings. While loop was only used in my code to keep the menu screen displayed as long as the user doesnt input 8 (exit program).
+
 Data types used - double, integer, string, and boolean. This assignment called for the use of at the very least 3 of these 4 data types. I used all 4 numerous times within my code. I used doubles for calculating and dislaying average rating, integers for ratings/user choice inputs/index values etc, strings for holding song titles/artists/search inputs, and finally booleans for finding search matches.
+
 GENERAL FRAMEWORK - Structured in a Parallel ArrayList Frame, as information is organized and managed in which each index lines up with the corresponding index of another ArrayList collection (correct artist, song, and rating are stored together to ensure for ex. Justin Bieber isn't listed as the "artist" of a Nicki Minaj song). Every operation within uses the same index counter variable (i) to search through each array to allow data to be removed, edited, or displayed without mixing up the order. Majority of the code is under the loop: while (choice != 8) as it runs as long as the program is not exited. The rest of the code is under if/if-else statements for executing tasks needed for each menu option to function correctly including processing inputs and displaying error messages.
